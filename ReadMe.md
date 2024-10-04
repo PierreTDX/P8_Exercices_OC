@@ -26,3 +26,5 @@ Exercice 5
 Exercice 6
 ![image](https://github.com/user-attachments/assets/053e69e6-0dcf-4395-8e8c-099200f03dfa)
 
+Exercice 7
+![image](https://github.com/user-attachments/assets/a23e6007-dfe6-4696-b225-41cd15260165)
