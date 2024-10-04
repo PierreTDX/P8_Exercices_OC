@@ -23,3 +23,6 @@ Exercice 4
 Exercice 5
 ![image](https://github.com/user-attachments/assets/9f425776-8628-4812-8333-2a52bb5731f5)
 
+Exercice 6
+![image](https://github.com/user-attachments/assets/053e69e6-0dcf-4395-8e8c-099200f03dfa)
+
