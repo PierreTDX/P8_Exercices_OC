@@ -25,5 +25,9 @@ console.log("Exercice 3 : ", calculateAverage(['5', 10, 15])); // retourne 10
 
 console.log("---------------------------------------------");
 // Exemples d'utilisation de la fonction Exercice 4
+console.log("Exercice 4 : Cliquez sur le lien exercice 4");
 
+console.log("---------------------------------------------");
+// Exemples d'utilisation de la fonction Exercice 5
+console.log("Exercice 5 : ");
 

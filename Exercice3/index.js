@@ -1,5 +1,5 @@
 // Créez votre fonction ici
-function calculateAverage(numbers) {
+export function calculateAverage(numbers) {
     // Vérifie si le tableau est vide ou non défini
     if (!numbers || numbers.length === 0) {
         return 'No numbers to calculate average';
