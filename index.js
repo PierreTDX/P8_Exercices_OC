@@ -29,5 +29,8 @@ console.log("Exercice 4 : Cliquez sur le lien exercice 4");
 
 console.log("---------------------------------------------");
 // Exemples d'utilisation de la fonction Exercice 5
-console.log("Exercice 5 : ");
+console.log("Exercice 5 : Cliquez sur le lien exercice 5");
 
+console.log("---------------------------------------------");
+// Exemples d'utilisation de la fonction Exercice 6
+console.log("Exercice 6 : ");

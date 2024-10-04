@@ -7,17 +7,22 @@
 <h1>Titre de la Page</h1>
 <p>Ceci est un paragraphe de texte.</p>
 
-<!-- Formulaire sans étiquette pour les champs -->
-<form>
-    <input id="name" type="text" placeholder="Entrez votre nom">
-    <input id="email" type="email" placeholder="Entrez votre adresse e-mail">
+ <!-- Formulaire avec des étiquettes pour les champs -->
+ <form>
+    <label for="name">Nom :</label> <!-- Ajout d'une étiquette pour le champ nom -->
+    <input id="name" type="text" placeholder="Entrez votre nom" required aria-required="true"> <!-- Ajout de 'required' et d'aria-required pour l'accessibilité -->
+    
+    <label for="email">Email :</label> <!-- Ajout d'une étiquette pour le champ email -->
+    <input id="email" type="email" placeholder="Entrez votre adresse e-mail" required aria-required="true"> <!-- Ajout de 'required' et d'aria-required pour l'accessibilité -->
+    
     <button type="submit">Envoyer</button>
 </form>
 
-<!-- Image sans attribut alt -->
-<img src="assets/image.png" height=250>
+<!-- Image avec un attribut alt -->
+<img src="image.png" alt="Description de l'image" height="50"> <!-- Ajout d'un texte alternatif décrivant l'image -->
 
-<!-- Lien sans texte descriptif -->
-<a href="#">Cliquez ici</a>
+<!-- Lien avec un texte descriptif et un attribut title -->
+<a href="#" title="En savoir plus sur nos services">En savoir plus sur nos services</a> <!-- Changement du texte du lien pour le rendre plus descriptif et ajout de title -->
+
 </body>
 </html>
