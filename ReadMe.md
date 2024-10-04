@@ -7,3 +7,7 @@ Ensuite vous pourrez réaliser les différents exercices.
 Pour vérifier que votre exercice est correctement réalisé vous n'avez qu'à lancer la commande `npm start` puis la commande `npm run test` vous verrez alors s'afficher l'application `Cypress`. Sélectionnez `E2E Testing` puis sélectionnez le navigateur dans lequel vous voulez lancer vos test.
 
 Si votre code est correctement réalisé alors les tests seront décrits en vert
+
+EZxercice 1
+![image](https://github.com/user-attachments/assets/dade94a2-4d12-4a28-81ce-935c3ed6da9d)
+
