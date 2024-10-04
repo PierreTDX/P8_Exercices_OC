@@ -24,7 +24,5 @@ export function pairNumbers(min, max) {
 
     return result;
 }
-// Exemple d'utilisation
-console.log("Exercice1 : ",pairNumbers(1, 10));  // Retourne "2,4,6,8,10"
 
 export default pairNumbers;
