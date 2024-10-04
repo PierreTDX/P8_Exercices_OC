@@ -8,6 +8,6 @@ Pour vérifier que votre exercice est correctement réalisé vous n'avez qu'à l
 
 Si votre code est correctement réalisé alors les tests seront décrits en vert
 
-EZxercice 1
+Exercice 1
 ![image](https://github.com/user-attachments/assets/dade94a2-4d12-4a28-81ce-935c3ed6da9d)
 
