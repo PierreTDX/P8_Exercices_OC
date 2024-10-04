@@ -11,10 +11,15 @@ export function pairNumbers(min, max) {
 
     let result = '';
 
-    for (let i = min; i <= max; i++) {
+    // Initialiser i à la valeur de min
+    let i = min;
+
+    // Utiliser une boucle while pour parcourir les nombres entre min et max
+    while (i <= max) {
         if (i % 2 === 0) {
             result += i + ',';
         }
+        i++;
     }
 
     // Retirer la dernière virgule
@@ -26,3 +31,4 @@ export function pairNumbers(min, max) {
 }
 
 export default pairNumbers;
+
