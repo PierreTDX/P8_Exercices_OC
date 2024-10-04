@@ -1,23 +1,33 @@
 // Créez votre fonction ici
-export function calculateAverage(numbers) {
+function calculateAverage(numbers) {
     // Vérifie si le tableau est vide ou non défini
     if (!numbers || numbers.length === 0) {
         return 'No numbers to calculate average';
     }
 
-    // Convertit les valeurs en nombres, en gérant les chaînes
-    const numericValues = numbers.map(num => parseFloat(num)).filter(num => !isNaN(num));
+    let sum = 0; // Pour accumuler la somme
+    let count = 0; // Pour compter les valeurs numériques valides
+    let i = 0; // Initialisation de l'index
 
-    // Vérifie si tous les éléments étaient des chaînes non convertibles
-    if (numericValues.length === 0) {
+    // Boucle while pour parcourir le tableau
+    while (i < numbers.length) {
+        // Convertit la valeur en nombre
+        const num = parseFloat(numbers[i]);
+        // Vérifie si la conversion a réussi
+        if (!isNaN(num)) {
+            sum += num; // Ajoute à la somme
+            count++; // Incrémente le compteur
+        }
+        i++; // Incrémente l'index pour passer à l'élément suivant
+    }
+
+    // Vérifie si aucune valeur numérique valide n'a été trouvée
+    if (count === 0) {
         return 'No numbers to calculate average';
     }
 
-    // Calcule la somme des nombres
-    const sum = numericValues.reduce((acc, num) => acc + num, 0);
-
     // Calcule la moyenne
-    const average = sum / numericValues.length;
+    const average = sum / count;
 
     return average;
 }
