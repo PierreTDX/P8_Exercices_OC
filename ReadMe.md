@@ -17,4 +17,6 @@ Exercice 2
 Exercice 3
 ![image](https://github.com/user-attachments/assets/afe60e99-a825-44ea-9e60-fad44fc8eed7)
 
+Exercice 4
+![image](https://github.com/user-attachments/assets/327ca7f6-107a-48fd-91a8-b6e46e844130)
 
